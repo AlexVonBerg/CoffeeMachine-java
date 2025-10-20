@@ -1,0 +1,26 @@
+type: matching
+captions:
+  - System.out.println(capricorn.name());
+  - Zodiac taurus = Zodiac.valueOf("TAURUS");
+  - Zodiac virgo = Zodiac.valueOf("virgo");
+  - System.out.println(leo.equals(Zodiac.TAURUS));
+  - System.out.println(Zodiac.AQUARIUS.ordinal());
+options:
+  - IllegalArgumentException is thrown
+  - '"CAPRICORN" is printed'
+  - Zodiac.TAURUS object is assigned
+  - it prints "false"
+  - it prints 10
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11518#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
